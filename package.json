@@ -1,0 +1,28 @@
+{
+  "name": "ex-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@stylistic/eslint-plugin-js": "^2.6.4",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.4"
+  }
+}
